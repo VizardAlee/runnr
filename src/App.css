@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+/* custom stuff */
+.custom-container {
+  width: 100%;
+  height: 100vh;
+  /* display: grid; */
+  background-color: #797878;
+}
+
+.text-color {
+  color: white;
+}
+
+.no-deco {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-color {
+  background-color: #5581a1;
+}
+
+.main-section {
+  /* background-color: orange; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr 3fr; */
+  height: 100%;
+}
+
+.side-area {
+  background-color: #C4C4C4; /* Change to your preferred background color */
+  color: #fff; /* Change text color if needed */
+}
+
+/* Main content styling */
+.main-main {
+  height: 100%;
+}
