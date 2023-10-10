@@ -38,9 +38,15 @@
 }
 
 /* custom stuff */
+
+body {
+  height: 100vh;
+  /* background-color: #282c34; */
+}
+
 .custom-container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   /* display: grid; */
   background-color: #797878;
 }
@@ -60,17 +66,24 @@
 
 .main-section {
   /* background-color: orange; */
-  /* display: grid; */
-  /* grid-template-columns: 1fr 3fr; */
-  height: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
 .side-area {
   background-color: #C4C4C4; /* Change to your preferred background color */
   color: #fff; /* Change text color if needed */
+  flex: 1;
+  padding: 10px;
+  max-width: 300px;
+  overflow-y: auto;
 }
 
 /* Main content styling */
 .main-main {
-  height: 100%;
+  flex: 3;
+  padding: 10px;
+  max-width: calc(100% - 300px);
+  overflow-y: auto;
 }
