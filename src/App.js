@@ -21,9 +21,9 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav">
                 <a className="nav-link text-color active" aria-current="page" href="/">Home</a>
-                <a className="nav-link text-color" href="/MarketplacePage">Marketplace</a>
-                <a className="nav-link text-color" href="/FinancialsPage">Financials</a>
-                <a className="nav-link text-color" href="/BookmarksPage">Bookmarks</a>
+                <a className="nav-link text-color" href="/marketplace">Marketplace</a>
+                <a className="nav-link text-color" href="/financials">Financials</a>
+                <a className="nav-link text-color" href="/bookmarks">Bookmarks</a>
               </div>
               <form className="d-flex">
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
