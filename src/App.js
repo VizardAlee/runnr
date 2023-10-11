@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage"
 import MarketplacePage from "./pages/MarketplacePage"
 import FinancialsPage from "./pages/FinancialsPage"
 import BookmarksPage from "./pages/BookmarksPage"
+import ProfilePage from "./pages/ProfilePage"
 
 function App() {
   return (
@@ -20,10 +21,10 @@ function App() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav">
-                <a className="nav-link text-color active" aria-current="page" href="/">Home</a>
                 <a className="nav-link text-color" href="/marketplace">Marketplace</a>
                 <a className="nav-link text-color" href="/financials">Financials</a>
                 <a className="nav-link text-color" href="/bookmarks">Bookmarks</a>
+                <a className="nav-link text-color" href="/profile">Profile</a>
               </div>
               <form className="d-flex">
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
@@ -40,6 +41,7 @@ function App() {
               <Route path="/marketplace" element={<MarketplacePage />} />
               <Route path="/financials" element={<FinancialsPage />} />
               <Route path="/bookmarks" element={<BookmarksPage />} />
+              <Route path="/profile" element={<ProfilePage />} />
               {/* The default route */}
               <Route path="/" element={<HomePage />} />
             </Routes>       
